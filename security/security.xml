@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <!-- Define custom security groups here -->
+        <record id="group_sales_kpi_user" model="res.groups">
+            <field name="name">Sales KPI User</field>
+        </record>
+        <record id="group_sales_kpi_manager" model="res.groups">
+            <field name="name">Sales KPI Manager</field>
+        </record>
+    </data>
+</odoo>

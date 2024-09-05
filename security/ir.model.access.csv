@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sales_kpi_user,sales_kpi_user,model_sales_kpi,base.group_user,1,0,0,0
+access_sales_kpi_manager,sales_kpi_manager,model_sales_kpi,base.group_system,1,1,1,1
+access_sales_kpi_chart,sales_kpi_chart,model_sales_kpi_chart,base.group_user,1,0,0,0
+access_sales_kpi_calc,sales_kpi_calc,model_sales_kpi_calc,base.group_user,1,0,0,0
+access_sales_kpi_dashboard,sales_kpi_dashboard,model_sales_kpi_dashboard,base.group_user,1,0,0,0

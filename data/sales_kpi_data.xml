@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="kpi_1" model="sales.kpi">
+            <field name="name">Leads Forecast</field>
+            <field name="jan">1000</field>
+            <field name="feb">1200</field>
+            <field name="total">2200</field>
+        </record>
+    </data>
+</odoo>

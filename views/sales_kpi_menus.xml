@@ -1,0 +1,14 @@
+<odoo>
+    <!-- Define a menu for KPI management -->
+    <menuitem id="menu_sales_kpi_root" name="Sales KPI" sequence="10" />
+    
+    <!-- Submenu for the main KPI model -->
+    <menuitem id="menu_sales_kpi" name="KPIs" parent="menu_sales_kpi_root" action="action_sales_kpi"/>
+
+    <!-- Define action for the KPI model -->
+    <record id="action_sales_kpi" model="ir.actions.act_window">
+        <field name="name">Sales KPIs</field>
+        <field name="res_model">sales.kpi</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
